@@ -3,14 +3,12 @@ package com.cool.boot.task.controller;
 import com.cool.boot.common.pojo.Response;
 import com.cool.boot.task.pojo.Task;
 import com.cool.boot.task.service.TaskService;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 /**
  * @author Vincent
  */
-@Slf4j
 @RestController
 @RequestMapping("task")
 public class TaskController {
